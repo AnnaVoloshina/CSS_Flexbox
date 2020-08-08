@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82bf7d75-8516-49e2-90a6-310e024ccccb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CSS_Flexbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/images/diamond_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/images/graphic_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/images/ribbon_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_card/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_form/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_form/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_form/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_form/images/Form_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_navigation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_navigation/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_navigation/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_navigation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/images/head-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/images/section2_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/images/section2_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/images/section2_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flexbox_site/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fS07mro75p9I3vHihkfHSbMQDH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82bf7d75-8516-49e2-90a6-310e024ccccb" name="Default Changelist" comment="" />
+      <created>1596196021791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596196021791</updated>
+      <workItem from="1596196028916" duration="414000" />
+      <workItem from="1596196570893" duration="1549000" />
+      <workItem from="1596198218697" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlexBox 2. Form</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="contactForm">
+      <div class="shadowBg">
+        <form>
+          <h2>Contact Form</h2>
+          <p>
+            Please fill in your information and we’ll be sending your order.
+          </p>
+          <div class="userInfo">
+            <div class="infoLine">
+              <p class="fieldsName">Your name</p>
+              <div class="fields directionRowName">
+                <label for="first_name"></label>
+                <label for="last_name"></label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  placeholder="first name"
+                  class="name"
+                />
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  placeholder="last name"
+                  class="name"
+                />
+              </div>
+            </div>
+
+            <div class="infoLine">
+              <p class="fieldsName">Your email</p>
+              <div class="fields">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your_mail@mail.com"
+                />
+              </div>
+            </div>
+
+            <div class="infoLine">
+              <p class="fieldsName">Phone *</p>
+              <div class="fields directionRowTel">
+                <label for="tel1"></label>
+                <label for="tel2"></label>
+                <label for="tel3"></label>
+                <input
+                  type="tel"
+                  id="tel1"
+                  name="tel"
+                  placeholder="000"
+                  class="tel"
+                  size="3"
+                />
+                <input
+                  type="tel"
+                  id="tel2"
+                  name="tel"
+                  placeholder="000"
+                  class="tel"
+                  size="3"
+                />
+                <input
+                  type="tel"
+                  id="tel3"
+                  name="tel"
+                  placeholder="0000"
+                  class="tel"
+                  size="4"
+                />
+              </div>
+            </div>
+
+            <div class="infoLine">
+              <p class="fieldsName">Message subject *</p>
+              <div class="fields">
+                <label for="message"></label>
+                <select id="message" name="message">
+                  <option value="payment">Payment</option>
+                  <option value="shipping">Shipping</option>
+                  <option value="other" selected>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="infoLine">
+              <p class="fieldsName alignTop">Message *</p>
+              <div class="fields">
+                <label for="message_text"></label>
+                <textarea
+                  id="message_text"
+                  name="message_text"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="infoLine horizontalLine">
+              <div class="fieldsName"></div>
+              <div class="fields">
+                <input type="submit" value="Submit Form" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+:root {
+  --main-color: #333333;
+  --second-main-color: #ffffff;
+  --contact-us-bg-color: #2690d4;
+  --section-one-bg-color: #eaeaea;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17.6px;
+}
+
+.cardsContainerBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 0;
+  background-color: var(--section-one-bg-color);
+}
+
+.cardsContainer {
+  min-width: 880px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.card {
+  box-sizing: border-box;
+  padding: 30px 40px;
+  width: 32%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.card1 {
+  background: linear-gradient(
+    to right,
+    rgba(255, 213, 130, 1) 0%,
+    rgba(255, 102, 153, 1) 100%
+  );
+}
+
+.card2 {
+  background: linear-gradient(
+    to right,
+    rgba(158, 221, 255, 1) 0%,
+    rgba(72, 121, 247, 1) 100%
+  );
+}
+
+.card3 {
+  background: linear-gradient(
+    to right,
+    rgba(173, 255, 255, 1) 0%,
+    rgba(58, 214, 206, 1) 100%
+  );
+}
+
+.cardInfo {
+  color: var(--second-main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 3;
+}
+
+.cardName {
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  font-size: 1rem;
+}
+
+.amount {
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.delta {
+  font-size: 0.8rem;
+}
+
+.card img {
+  width: 20px;
+  height: 20px;
+  align-self: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 3;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--second-main-color);
+  opacity: 0.3;
+  position: absolute;
+  overflow: hidden;
+}
+
+.circle1 {
+  z-index: 1;
+  top: -20px;
+  right: -70px;
+}
+
+.circle2 {
+  z-index: 2;
+  bottom: -60px;
+  right: -30px;
+}
+
+@media (max-width: 992px) {
+  .cardsContainer {
+    min-width: 90vw;
+  }
+
+  .card {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsContainerBg {
+    width: 100vw;
+    padding: 10px;
+  }
+
+  .cardsContainer {
+    min-width: 50%;
+    flex-direction: column;
+  }
+
+  .card {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}

@@ -1,0 +1,240 @@
+:root {
+  --main-color: #333333;
+  --second-main-color: #ffffff;
+  --contact-us-bg-color: #2690d4;
+  --section-one-bg-color: #eaeaea;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 17.6px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headContainer {
+  min-height: 450px;
+  background-color: var(--main-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.headContainerImage {
+  position: absolute;
+  width: 100%;
+  min-height: 450px;
+  background-image: url("../images/head-image.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+.contentWidthColumn {
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headContainerInfo {
+  position: relative;
+  z-index: 1;
+}
+
+.headContainerInfo h1 {
+  color: var(--second-main-color);
+  padding: 108px 0 0;
+}
+
+.headContainerInfo p {
+  color: var(--second-main-color);
+  padding: 1.5rem 0;
+}
+
+.headContainerInfo a {
+  color: var(--second-main-color);
+  background-color: var(--main-color);
+  padding: 1.25rem 2rem;
+  border: 1px solid #666666;
+}
+
+.headContainerInfo a:hover {
+  color: #000000;
+  background-color: var(--section-one-bg-color);
+}
+
+.section1 {
+  background-color: var(--section-one-bg-color);
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+}
+
+.section1 > div {
+  padding: 0 1.5rem;
+}
+
+.section1 h2 {
+  padding: 1.7rem 0 0;
+}
+
+.section1 p {
+  padding: 2rem 1.5rem 3rem;
+  column-count: 2;
+  column-gap: 2rem;
+}
+
+.section2 {
+  background-color: var(--main-color);
+  color: var(--main-color);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWidthRow {
+  max-width: 880px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--second-main-color);
+  color: var(--main-color);
+  width: 33%;
+}
+
+.container + .container {
+  margin-left: 1.1rem;
+}
+
+.containerImg {
+  width: 100%;
+  height: 184px;
+  object-fit: cover;
+}
+
+.containerContent {
+  padding: 1.5rem;
+}
+
+.containerContent h3 {
+  padding: 1.3rem 0;
+}
+
+.containerContent p {
+  padding: 1rem 0;
+}
+
+.section3 {
+  background-color: var(--second-main-color);
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+}
+
+.section3 > div {
+  padding: 0 1rem;
+}
+
+.section3 h2 {
+  padding: 3.5rem 0 0;
+}
+
+.section3 p {
+  padding: 3rem 0;
+}
+
+.section4 {
+  color: var(--second-main-color);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.halfColumn {
+  width: 50%;
+  padding: 0 2rem 2.5rem;
+}
+
+.section4 .contactUsColumn {
+  background-color: var(--contact-us-bg-color);
+}
+
+.section4 .aboutColumn {
+  background-color: var(--main-color);
+}
+
+.section4 h2 {
+  padding: 3.5rem 0 3rem;
+}
+
+.section4 p {
+  padding-bottom: 2.5rem;
+}
+
+.section4 a {
+  color: var(--second-main-color);
+  padding-bottom: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerColumn {
+  width: 50%;
+  padding: 2rem 0;
+  background-color: #000000;
+  color: var(--second-main-color);
+}
+
+.footerColumn a {
+  color: var(--contact-us-bg-color);
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}

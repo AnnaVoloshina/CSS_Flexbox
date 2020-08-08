@@ -1,0 +1,101 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.6px;
+}
+
+a {
+    text-decoration: none;
+d}
+
+nav {
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.page a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: 'Baloo 2', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page {
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+.contact a {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        padding: 30px 40px;
+    }
+    .page {
+        padding: 0 10px;
+    }
+    .logo {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 30px;
+    }
+
+    .page {
+        padding: 20px 50px 20px 0;
+    }
+}
+
+@media (max-width: 576px)  {
+    .page {
+        padding: 10px 40px 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        padding: 10px 15px 15px 0;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+}

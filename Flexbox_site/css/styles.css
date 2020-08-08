@@ -84,6 +84,8 @@ a {
   background-color: var(--main-color);
   padding: 1.25rem 2rem;
   border: 1px solid #666666;
+  white-space: nowrap;
+  margin-bottom: 1.5rem;
 }
 
 .headContainerInfo a:hover {
@@ -225,15 +227,201 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
+  .headContainer {
+    min-height: 300px;
+  }
+
+  .headContainerImage {
+    min-height: 300px;
+  }
+
+  .contentWidthColumn {
+    max-width: 90%;
+  }
+
+  .headContainerInfo h1 {
+    padding: 3rem 0 0;
+  }
+
+  .section1 > div {
+    padding: 0;
+  }
+
+  .section1 h2 {
+    padding: 1.5rem 0 0;
+  }
+
+  .section1 p {
+    padding: 1.5rem 0;
+    column-count: 1;
+    column-gap: 2rem;
+  }
+
+  .contentWidthRow {
+    max-width: 90%;
+    align-items: stretch;
+  }
+
+  .containerImg {
+    height: 160px;
+  }
+
+  .containerContent {
+    padding: 0.5rem;
+  }
+
+  .containerContent h3 {
+    padding: 0.5rem 0;
+  }
+
+  .containerContent p {
+    padding: 0.5rem 0;
+  }
+
+  .section3 > div {
+    padding: 0;
+  }
+
+  .section3 h2 {
+    padding: 1.5rem 0 0;
+  }
+
+  .section3 p {
+    padding: 1.5rem 0;
+  }
+
+  .halfColumn {
+    width: 50%;
+    padding: 0 1.5rem;
+  }
+
+  .section4 h2 {
+    padding: 1.5rem 0 1.5rem;
+  }
+
+  .section4 p {
+    padding-bottom: 1.5rem;
+  }
+
+  .section4 a {
+    padding-bottom: 1.5rem;
+  }
+
+  .footerColumn {
+    padding: 1.5rem 0;
+  }
 }
 
 @media (max-width: 768px) {
+  .section2 {
+    padding: 1.5rem 0;
+  }
+
+  .contentWidthRow {
+    max-width: 90%;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container + .container {
+    margin: 1.5rem 0 0;
+  }
+
+  .containerImg {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .containerContent {
+    padding: 0 1.5rem;
+  }
+
+  .containerContent h3 {
+    padding: 1.5rem 0 0;
+  }
+
+  .containerContent p {
+    padding: 1.5rem 0;
+  }
+
+  .section4 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .halfColumn {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .section4 h2 {
+    padding: 0 1.5rem;
+  }
+
+  .section4 p {
+    padding: 1.5rem 1.5rem 0;
+  }
+
+  .section4 a {
+    display: inline-block;
+    padding: 0;
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+
+  .headContainer {
+    min-height: 270px;
+  }
+
+  .headContainerImage {
+    min-height: 270px;
+  }
 }
 
 @media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .containerImg {
+    width: 100%;
+    height: 184px;
+    object-fit: cover;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footerColumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footerColumn p {
+    padding: 0.3rem 0 0;
+  }
+
+  .footerColumn + .footerColumn {
+    padding: 0 0 0.5rem;
+  }
 }
 
 @media (max-width: 320px) {
